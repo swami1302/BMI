@@ -1,0 +1,65 @@
+.form{
+    margin-bottom: 10px;
+    
+}
+
+input[type="number"]{
+    display: block;
+    appearance: textfield --!important;
+    width: 60%;
+    text-align: center;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 0.5px solid black;
+    outline: none;
+    margin-left: 80px;
+    
+}
+
+button{
+    background-color: rgba(0, 110, 255, 0.723);
+    color: antiquewhite;
+    font-size: large;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s;
+
+}
+button:hover{
+    opacity: 0.7;
+}
+
+.result{
+    font-weight: bold;
+}
+.result.underweight {
+    color: #ff0000;
+  }
+  
+
+  .result.healthy {
+
+    color: #008000;
+  }
+
+  .result.overweight {
+
+    color: #ff9900;
+  }
+  
+
+  .result.obesity {
+
+    color: #ff6600;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
